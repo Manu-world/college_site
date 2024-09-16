@@ -1,0 +1,62 @@
+/* Start of Selection */
+nav {
+  width: 100%;
+  color: #fff;
+  padding: 4px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: rgba(227, 227, 227, 0.942);
+  padding: 5px; /* Add padding to create space around the image */
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%; /* Ensure the image inside also appears circular */
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 5px 20px;
+  font-size: 18px; /* Increased font size for better visibility */
+  font-weight: bold; /* Make the text bolder */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effects */
+}
+
+nav ul li:hover {
+  color: #1d9836; /* Change color on hover */
+  transform: scale(1.1); /* Slightly enlarge the item on hover */
+}
+
+.dark-nav {
+  transition: 0.5s;
+  background: linear-gradient(rgba(29, 152, 54, 0.8), rgba(29, 152, 54, 0.8)),
+    url("../../assets/globe.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.active-nav::after {
+  content: "";
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+  border-bottom: 2px solid orange;
+}
+/* End of Selection */
