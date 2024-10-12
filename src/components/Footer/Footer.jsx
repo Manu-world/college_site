@@ -47,18 +47,24 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-
-          <div className="footer-section">
+          {/* Vision:  To be a world class institution that provides holistic education.
+Adress: P.O Box 1,
+Sekyere-Beposo, Ashanti
+Email: gmmcoebeposo@gmail.com 
+Programs:B.Ed Early Grade Education 
+B.Ed Upper Primary Education 
+B.Ed JHS Education (Arabic & English Specialiation) */}
+          <div className="footer-section" id="footer-contact">
             <h3>Contact Us</h3>
             <ul>
               <li>
-                <strong>Address:</strong> 123 College Ave, City, State, 12345
+                <strong>Address:</strong> P.O Box 1, Sekyere-Beposo, Ashanti
               </li>
               <li>
-                <strong>Email:</strong> info@college.edu
+                <strong>Email:</strong> gmmcoebeposo@gmail.com
               </li>
               <li>
-                <strong>Phone:</strong> (123) 456-7890
+                <strong>Phone:</strong> +233 243236539
               </li>
             </ul>
           </div>
@@ -84,7 +90,8 @@ const Footer = () => {
 
         <div className="footer-bottom">
           <p>
-            &copy; {new Date().getFullYear()} College Name. All rights reserved.
+            &copy; {new Date().getFullYear()} Ghana Muslim Mission College of
+            Education. All rights reserved.
           </p>
         </div>
       </div>

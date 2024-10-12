@@ -12,10 +12,7 @@ const About = () => {
       <div className="about-right">
         <h2>ABOUT THE COLLEGE</h2>
         <h3>VISION</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-          facilis.
-        </p>
+        <p>To be a world class institution that provides holistic education.</p>
         <h3>MISSION</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim magnam

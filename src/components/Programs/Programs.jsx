@@ -7,26 +7,33 @@ import program_icon_2 from "../../assets/program-icon-2.png";
 import program_icon_3 from "../../assets/program-icon-3.png";
 const Programs = () => {
   return (
+    //     Programs:B.Ed Early Grade Education
+    // B.Ed Upper Primary Education
+    // B.Ed JHS Education (Arabic & English Specialiation) */}
+
     <div className="programs">
       <div className="program">
         <img src={program_1} alt="" />
         <div className="caption">
           <img src={program_icon_1} alt="" />
-          <p>BED in Edudcation</p>
+          <p>B.Ed Early Grade Education</p>
         </div>
       </div>
       <div className="program">
         <img src={program_2} alt="" />
         <div className="caption">
           <img src={program_icon_2} alt="" />
-          <p>BED in Early Child</p>
+          <p>B.Ed Upper Primary Education</p>
         </div>
       </div>
       <div className="program">
         <img src={program_3} alt="" />
         <div className="caption">
           <img src={program_icon_3} alt="" />
-          <p className="">BED in Teaching</p>
+          <p>
+            B.Ed JHS Education <br />
+            (Arabic & English Specialiation)
+          </p>
         </div>
       </div>
     </div>
